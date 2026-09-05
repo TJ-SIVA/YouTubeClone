@@ -12,6 +12,14 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="A YouTube homepage clone showcasing video thumbnails, navigation bar, and search functionality.">
+        <meta name="keywords" content="YouTube clone, HTML, CSS, video grid, web design, frontend project">
+        <meta name="author" content="Sivakumar Devaraj">
+
     </head>
 
     <body>
@@ -23,6 +31,7 @@
 
                 <div class="thumbnail-container">
                     <img class="thumbnail" src = "Images/thumbnails/thumbnail-1.webp" alt="thumbnail">
+                    <div class="video-time"> 14:20 </div>
 
                 </div>
 
@@ -46,6 +55,7 @@
 
                 <div class="thumbnail-container">
                     <img class="thumbnail" src = "Images/thumbnails/thumbnail-2.webp" alt="thumbnail">
+                    <div class="video-time"> 8:22 </div>
 
                 </div>
 
@@ -69,6 +79,7 @@
 
                 <div class="thumbnail-container">
                     <img class="thumbnail" src = "Images/thumbnails/thumbnail-3.webp" alt="thumbnail">
+                    <div class="video-time"> 9:13 </div>
 
                 </div>
 
@@ -76,12 +87,13 @@
 
                     <div class="profile-container">
                         <img class="profile-picture" src="Images/channel-pictures/channel-3.jpeg" alt="profile-picture">
+                        <div class="video-time"> 22:09 </div>
                     </div>
 
                     <div class="details-container">
                         <p class="video-title"> Crazy Tik Toks Taken Moments Before DISASTER </p>
                         <p class="channel-name">SSSniperWolf</p>
-                        <p class="video-stats"> 12M views &middot; 1 year ag</p>
+                        <p class="video-stats"> 12M views &middot; 1 year ago</p>
                     </div>
 
                 </div>
@@ -92,6 +104,7 @@
 
                 <div class="thumbnail-container">
                     <img class="thumbnail" src = "Images/thumbnails/thumbnail-4.webp" alt="thumbnail">
+                    <div class="video-time"> 11:17 </div>
 
                 </div>
 
@@ -113,6 +126,7 @@
 
                 <div class="thumbnail-container">
                     <img class="thumbnail" src = "Images/thumbnails/thumbnail-5.webp" alt="thumbnail">
+                    <div class="video-time"> 19:59 </div>
 
                 </div>
 
@@ -136,6 +150,7 @@
 
                 <div class="thumbnail-container">
                     <img class="thumbnail" src = "Images/thumbnails/thumbnail-6.webp" alt="thumbnail">
+                    <div class="video-time"> 10:43 </div>
 
                 </div>
 
@@ -160,6 +175,7 @@
 
                 <div class="thumbnail-container">
                     <img class="thumbnail" src = "Images/thumbnails/thumbnail-7.webp" alt="thumbnail">
+                    <div class="video-time"> 10:13 </div>
 
                 </div>
 
@@ -183,6 +199,7 @@
 
                 <div class="thumbnail-container">
                     <img class="thumbnail" src = "Images/thumbnails/thumbnail-8.webp" alt="thumbnail">
+                    <div class="video-time"> 7:12 </div>
 
                 </div>
 
@@ -206,6 +223,7 @@
 
                 <div class="thumbnail-container">
                     <img class="thumbnail" src = "Images/thumbnails/thumbnail-9.webp" alt="thumbnail">
+                    <div class="video-time"> 13:17 </div>
 
                 </div>
 
@@ -229,6 +247,7 @@
 
                 <div class="thumbnail-container">
                     <img class="thumbnail" src = "Images/thumbnails/thumbnail-10.webp" alt="thumbnail">
+                    <div class="video-time"> 7:53 </div>
 
                 </div>
 
@@ -252,6 +271,7 @@
 
                 <div class="thumbnail-container">
                     <img class="thumbnail" src = "Images/thumbnails/thumbnail-11.webp" alt="thumbnail">
+                    <div class="video-time"> 4:10 </div>
 
                 </div>
 
@@ -275,6 +295,7 @@
 
                 <div class="thumbnail-container">
                     <img class="thumbnail" src = "Images/thumbnails/thumbnail-12.webp" alt="thumbnail">
+                    <div class="video-time"> 4:51 </div>
 
                 </div>
 
@@ -366,26 +387,33 @@
                 
                 <button class="search-button">
                     <img src="Images/icons/search.svg" alt="search">
+                    <div class="tooltip"> Search </div>
                 </button>
 
                 <button class="voice-search-button">
                     <img src="Images/icons/voice-search-icon.svg" alt="voice-search-button">
+                    <div class="tooltip"> Search with your voice </div>
                 </button>
             </div>
 
             <div class="right-section">
                 <div class="upload-button">
                     <img src="Images/icons/upload.svg" alt="">
+                    <div class="tooltip"> upload </div>
                 </div>
                 <div class="upload-button">
                     <img src="Images/icons/youtube-apps.svg" alt="">
+                    <div class="tooltip"> YouTube apps </div>
                 </div>
                 <div class="upload-button">
                     <img src="Images/icons/notifications.svg" alt="">
+                    <div class="notification-count"> 3 </div>
+                    <div class="tooltip"> Notifications </div>
                 </div>
                 <div class="my-channel">
 
                     <img src="Images/channel-pictures/my-channel.jpeg" alt="">
+                    <div class="tooltip"> profile </div>
 
                 </div>
             </div>

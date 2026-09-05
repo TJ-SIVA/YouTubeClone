@@ -6,10 +6,28 @@
     row-gap: 30px;
 }
 
+.video-container{
+    cursor: pointer;
+}
 
 .thumbnail-container{
 
     width: 100%;
+    position: relative;
+
+}
+
+.video-time{
+
+    position: absolute;
+    bottom: 10px;
+    right: 5px;
+    padding: 4px 4px;
+    background-color: rgb(0, 0, 0);
+    font-size: 12px;
+    color: white;
+    border-radius: 2px;
+    font-weight: bold;
 }
 
 .thumbnail{
